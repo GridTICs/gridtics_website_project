@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Institucional - GridTICs UTN FRM</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="imagen/logo.png">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-bold">Grid</span>TICs
+                <span class="logo-sub">UTN FRM</span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li><a href="institucional.html" class="nav-link active">Institucional</a></li>
+                    <li><a href="contacto.html" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECCIÓN INSTITUCIONAL -->
+        <section class="section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <h1 class="section-title">Sobre Nosotros</h1>
+                    <p class="section-subtitle">Conocé nuestra historia, objetivos y al equipo de investigación</p>
+                </div>
+
+                <div class="news-grid" style="margin-bottom: 60px;">
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-bullseye"></i></div>
+                        <h3 class="card-title">Misión</h3>
+                        <p class="card-excerpt">Fomentar la investigación científica y el desarrollo tecnológico en el campo de las TICs, formando profesionales de excelencia e impulsando la transferencia tecnológica hacia la sociedad.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-eye"></i></div>
+                        <h3 class="card-title">Visión</h3>
+                        <p class="card-excerpt">Ser un grupo de referencia a nivel nacional e internacional en el desarrollo de soluciones tecnológicas innovadoras, sostenibles y de alto impacto académico y social.</p>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-icon"><i class="fa-solid fa-microchip"></i></div>
+                        <h3 class="card-title">Líneas de Trabajo</h3>
+                        <p class="card-excerpt">Computación Distribuida, Internet de las Cosas (IoT), Inteligencia Artificial aplicada, Ciberseguridad y Redes de Alta Velocidad.</p>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN EQUIPO -->
+                <div class="section-header">
+                    <h2 class="section-title">Equipo Integrante</h2>
+                    <p class="section-subtitle">Docentes, investigadores y becarios que forman parte del grupo</p>
+                </div>
+
+                <div class="news-grid">
+                    <div class="card text-center">
+                        <div class="member-icon"><i class="fa-solid fa-circle-user"></i></div>
+                        <h3 class="card-title">Director del Grupo</h3>
+                        <span class="card-category member-role">Investigador Principal</span>
+                        <p class="card-excerpt"><i class="fa-solid fa-graduation-cap icon-style"></i> Dr. / Ing. Responsables del proyecto y coordinadores de líneas de trabajo.</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="member-icon"><i class="fa-solid fa-user-gear"></i></div>
+                        <h3 class="card-title">Investigadores</h3>
+                        <span class="card-category member-role">Docentes e Investigadores</span>
+                        <p class="card-excerpt"><i class="fa-solid fa-flask icon-style"></i> Profesionales dedicados al desarrollo de soluciones tecnológicas y publicaciones.</p>
+                    </div>
+
+                    <div class="card text-center">
+                        <div class="member-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3 class="card-title">Becarios</h3>
+                        <span class="card-category member-role">Estudiantes Avanzados</span>
+                        <p class="card-excerpt"><i class="fa-solid fa-laptop-code icon-style"></i> Alumnos de grado y posgrado que desarrollan sus tesinas y prácticas en proyectos reales.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-bold">Grid</span>TICs
+                </a>
+                <p>Grupo de Investigación y Desarrollo en TICs.<br>
+                <span class="footer-university">UTN Facultad Regional Mendoza</span></p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="institucional.html">Institucional</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h4>Contacto</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:info@gridtics.utn.edu.ar" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 GridTICs - UTN FRM. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
