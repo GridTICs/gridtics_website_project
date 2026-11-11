@@ -18,10 +18,10 @@
 
     <!-- HEADER -->
     <header class="header">
-        <div class="container header-container">
-            <a href="index.html" class="logo">
-                <span class="logo-bold">Grid</span>TICs
-                <span class="logo-sub">UTN FRM</span>
+        <div class="container header-container" style="display: flex; align-items: center; justify-content: space-between;">
+            <a href="index.html" class="logo" style="display: flex; gap: 15px; align-items: center;">
+                <img src="imagen/logo-gridtics.jpg" alt="Logo GridTICs Grupo UTN de I&D" style="height: 38px; width: auto; object-fit: contain;">
+                <img src="imagen/logo-utn.gif" alt="Logo UTN Facultad Regional Mendoza" style="height: 38px; width: auto; object-fit: contain; filter: brightness(0) invert(1);">
             </a>
 
             <button class="nav-toggle" id="navToggle" aria-label="Abrir menú de navegación">
@@ -103,29 +103,26 @@
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-brand">
-                <a href="index.html" class="logo">
-                    <span class="logo-bold">Grid</span>TICs
-                </a>
+                <div class="footer-logos" style="display: flex; gap: 15px; align-items: center; margin-bottom: 15px;">
+                    <img src="imagen/logo-gridtics.jpg" alt="Logo GridTICs Grupo UTN de I&D" style="height: 38px; width: auto; object-fit: contain;">
+                    <img src="imagen/logo-utn.gif" alt="Logo UTN Facultad Regional Mendoza" style="height: 38px; width: auto; object-fit: contain; filter: brightness(0) invert(1);">
+                </div>
                 <p>Grupo de Investigación y Desarrollo en TICs.<br>
                 <span class="footer-university">UTN Facultad Regional Mendoza</span></p>
             </div>
-            <div class="footer-links">
-                <h4>Navegación</h4>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="institucional.html">Institucional</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </div>
+            
             <div class="footer-social">
                 <h4>Contacto</h4>
                 <div class="social-icons">
-                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/company/gridtics" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://twitter.com" target="_blank" aria-label="X (Twitter)"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                     <a href="mailto:info@gridtics.utn.edu.ar" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
                 </div>
             </div>
         </div>
+        
         <div class="footer-bottom text-center">
             <p>&copy; 2026 GridTICs - UTN FRM. Todos los derechos reservados.</p>
         </div>
