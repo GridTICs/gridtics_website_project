@@ -6,8 +6,8 @@
     --secondary-color: #0066CC;    /* Azul brillante para acentos */
     --accent-color: #00D4FF;       /* Azul cian brillante para resaltados */
     --text-color: #2D3748;         /* Gris oscuro para lectura */
-    --text-muted: #718096;        /* Gris medio para textos secundarios */
-    --bg-light: #F8FAFC;          /* Gris claro para fondo general */
+    --text-muted: #718096;         /* Gris medio para textos secundarios */
+    --bg-light: #F8FAFC;           /* Gris claro para fondo general */
     --white: #FFFFFF;
     --border-color: #E2E8F0;
     --error-color: #E53E3E;
@@ -105,7 +105,7 @@ a {
     height: 70px;
 }
 
-/* Estilos del Logo Texto */
+/* Estilos del Logo Texto / Imágenes */
 .logo {
     font-size: 1.5rem;
     font-weight: 400;
@@ -469,7 +469,7 @@ a {
 }
 
 /* ==========================================================================
-   FOOTER
+   FOOTER (Actualizado a 2 columnas)
    ========================================================================== */
 .footer {
     background-color: var(--primary-color);
@@ -480,7 +480,7 @@ a {
 
 .footer-container {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     gap: 40px;
     padding-bottom: 40px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -497,31 +497,16 @@ a {
     color: var(--accent-color) !important;
 }
 
-.footer-links h4,
 .footer-social h4 {
     font-size: 1.1rem;
     margin-bottom: 20px;
     color: var(--white);
 }
 
-.footer-links ul {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-
-.footer-links a {
-    color: #A0AEC0;
-    transition: var(--transition);
-}
-
-.footer-links a:hover {
-    color: var(--white);
-}
-
 .social-icons {
     display: flex;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .social-icons a {
@@ -559,10 +544,6 @@ a {
     .contact-info {
         padding-right: 0;
     }
-
-    .footer-container {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media (max-width: 768px) {
@@ -598,5 +579,11 @@ a {
     .footer-container {
         grid-template-columns: 1fr;
         gap: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header-container .logo img {
+        height: 32px !important;
     }
 }
